@@ -3,11 +3,16 @@ import random
 choices = ["r", "p", "s"]
 emojis = {"r":"💎", "p":"📃", "s":"✂"}
 
+def get_user_choice():
+    while True:
+        user_choice = input("Rock, Paper or Scissor? (r/p/s): ").lower()
+        if user_choice in choices:
+            return user_choice
+        else:
+            print("Invalid choice")
+
 while True:
-    user_choice = input("Rock, Paper or Scissor? (r/p/s): ").lower()
-    if user_choice not in choices:
-        print("Invalid choice")
-        continue
+    user_choice = get_user_choice()
 
     computer_choice = random.choice(choices)
 
