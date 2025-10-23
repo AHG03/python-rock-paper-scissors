@@ -17,9 +17,9 @@ You'll need Python 3 installed on your system to run this game.
 3.  Navigate to the directory where you saved the file.
 4.  Run the game using the Python interpreter:
 
-   
+    ```bash
     python rps.py
-    
+    ```
 ---
 
 ## 🎮 How to Play
@@ -35,7 +35,7 @@ The game will run in a loop, allowing you to play multiple rounds.
 3.  The winner is determined and the result is printed: "Draw", "you win", or "you lose".
 4.  After the round, you'll be asked: "Continue? (y/n)".
     * Enter **n** to exit the game.
-    * Eny*y** (or any other key) to play another round.
+    * Enter **y** (or any other key) to play another round.
 
 ---
 
